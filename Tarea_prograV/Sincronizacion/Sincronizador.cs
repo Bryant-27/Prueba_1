@@ -8,6 +8,8 @@ namespace Tarea_prograV.Sincronizacion
     {
         // Coordinara el proceso de sincronizacion
 
+        /*Atributos*/
+
         private Settings _configuracion;
         private Replicador _replicador;
 
