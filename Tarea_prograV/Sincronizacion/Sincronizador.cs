@@ -6,6 +6,8 @@ namespace Tarea_prograV.Sincronizacion
 {
     public class Sincronizador
     {
+        // Coordinara el proceso de sincronizacion
+
         private Settings _configuracion;
         private Replicador _replicador;
 
