@@ -40,8 +40,32 @@ class Program
                 sincronizador.ProcesarArchivo(archivo);
             });
 
-            Console.WriteLine("Sincronización activa. Presione ENTER para salir.");
-            Console.ReadLine();
+            Console.WriteLine("Sincronizacion activada" +
+                "\n\nP = Pausar | R = Reanudar | Esc = Salir");
+
+            while (true)
+            {
+                var tecla = Console.ReadKey(true).Key;
+
+                if (tecla == ConsoleKey.P)
+                {
+                    settings.sincronizacion = false;
+                    Console.WriteLine("Sincronizacion pausada.");
+                }
+
+                else if (tecla == ConsoleKey.R)
+                {
+                    settings.sincronizacion = true;
+                    Console.WriteLine("Sincronizacion reanudada.");
+
+                    sincronizador.Resincronizacion();
+                }
+                else if (tecla == ConsoleKey.Escape)
+                {
+                    Console.WriteLine("Cerrando la aplicacion.");
+                    break;
+                }
+            }
         }
         catch (Exception ex)
         {

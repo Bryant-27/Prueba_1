@@ -11,7 +11,7 @@ namespace Tarea_prograV.Configuracion
         public string ruta_carpeta_origen { get; set; }
 
         public string ruta_carpeta_destino { get; set; }
-        public bool sincronizacion { get; set; } = true;
+        public bool sincronizacion { get; set; }
 
         /*Constructor*/
         public Settings()
