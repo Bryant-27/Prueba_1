@@ -1,0 +1,14 @@
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\bin\Debug\net8.0\Tarea_prograV.exe
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\bin\Debug\net8.0\Tarea_prograV.deps.json
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\bin\Debug\net8.0\Tarea_prograV.runtimeconfig.json
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\bin\Debug\net8.0\Tarea_prograV.dll
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\bin\Debug\net8.0\Tarea_prograV.pdb
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.AssemblyInfoInputs.cache
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.AssemblyInfo.cs
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.csproj.CoreCompileInputs.cache
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.dll
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\refint\Tarea_prograV.dll
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.pdb
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\Tarea_prograV.genruntimeconfig.cache
+C:\Users\karol\Downloads\PrograV_Tarea1-Emilio_Code\PrograV_Tarea1-Emilio_Code\Tarea_prograV\obj\Debug\net8.0\ref\Tarea_prograV.dll
