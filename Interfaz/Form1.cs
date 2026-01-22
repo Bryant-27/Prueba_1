@@ -65,7 +65,7 @@ namespace Interfaz
                 replicador = new Replicador(settings.ruta_carpeta_destino);
                 sincronizador = new Sincronizador(settings, replicador);
 
-                // Sincronizaci髇 inicial
+                // Sincronizaci贸n inicial
                 foreach (string rutaArchivo in Directory.GetFiles(settings.ruta_carpeta_origen))
                 {
                     Archivo archivo = CS.Obtener_Archivo(rutaArchivo);
@@ -87,18 +87,18 @@ namespace Interfaz
                     sincronizador.ProcesarArchivo(archivo);
                 });
 
-                lstLog.Items.Add("Sincronizaci髇 activada");
+                lstLog.Items.Add("Sincronizaci贸n activada");
 
                 settings.sincronizacion = true;
                 ActualizarEstadoUI(true);
 
-                MessageBox.Show("Se ha iniciado la sincronizaci髇.");
+                MessageBox.Show("Se ha iniciado la sincronizaci贸n.");
             }
             catch (Exception ex)
             {
 
                 Bitacora.RegistrarError(ex.ToString());
-                lstLog.Items.Add("Ocurrio un fallo durante la operaci髇.");
+                lstLog.Items.Add("Ocurrio un fallo durante la operaci贸n.");
 
             }
         }
@@ -108,14 +108,14 @@ namespace Interfaz
             try
             {
                 settings.sincronizacion = false;
-                lstLog.Items.Add("Sincronizaci髇 pausada");
-                MessageBox.Show("La sincronizaci髇 ha sido pausada.");
+                lstLog.Items.Add("Sincronizaci贸n pausada");
+                MessageBox.Show("La sincronizaci贸n ha sido pausada.");
 
                 ActualizarEstadoUI(false);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Ha ocurrido un error al pausar la sincronizaci髇, intente de nuevo");
+                MessageBox.Show(ex.Message, "Ha ocurrido un error al pausar la sincronizaci贸n, intente de nuevo");
             }
         }
 
@@ -125,14 +125,14 @@ namespace Interfaz
             {
                 settings.sincronizacion = true;
                 sincronizador.Resincronizacion();
-                lstLog.Items.Add("Sincronizaci髇 reanudada");
-                MessageBox.Show("La sincronizaci髇 ha sido reanudada.");
+                lstLog.Items.Add("Sincronizaci贸n reanudada");
+                MessageBox.Show("La sincronizaci贸n ha sido reanudada.");
 
                 ActualizarEstadoUI(true);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Ha ocurrido un error al reanudar la sincronizaci髇, intente de nuevo");
+                MessageBox.Show(ex.Message, "Ha ocurrido un error al reanudar la sincronizaci贸n, intente de nuevo");
             }
         }
 
