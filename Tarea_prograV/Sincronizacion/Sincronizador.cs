@@ -22,9 +22,23 @@ namespace Tarea_prograV.Sincronizacion
         {
             if (!_configuracion.sincronizacion)
                 return;
-            
 
-            _replicador.EnviarArchivo(archivo);
+            //Cambio necesario para bitacora KNG 
+
+            try
+            {
+                _replicador.EnviarArchivo(archivo);
+
+                // Registro de éxito
+                string accion = archivo.eliminado ? "Eliminado" : "Sincronizado";
+                Bitacora.RegistrarEvento($"{accion}: {archivo.nombre}");
+            }
+            catch (Exception ex)
+            {
+                // Registro de error técnico
+                Bitacora.RegistrarError($"Error al procesar {archivo.nombre}: {ex.Message}");
+                throw; // Re-lanzamos para que la UI
+            }
         }
 
         public void Resincronizacion()
